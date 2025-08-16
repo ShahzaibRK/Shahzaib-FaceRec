@@ -16,6 +16,9 @@ Modern GUI → A clean, dark-themed interface with styled buttons, icons, and sm
 
 Personal Branding → Includes a footer credit: “Developed by Shahzaib Khan” at the bottom right corner.
 
+<img width="418" height="345" alt="Screenshot 2025-08-16 104641" src="https://github.com/user-attachments/assets/a9cfc5e2-8e72-4d9f-aa38-a44624e1adcb" />
+
+
 🛠️ Tech Stack
 
 Python 3
@@ -39,23 +42,24 @@ Support for multiple recognition models.
 More customizable GUI themes.
 
 📌 Project Setup
-1. Create project folder
-mkdir face_recognition_app
+1. Create project folder :
+mkdir face_recognition_app ,
 cd face_recognition_app
 
 2. Create virtual environment
-python -m venv venv
-source venv/bin/activate    # On Linux/Mac
-venv\Scripts\activate       # On Windows
+python -m venv venv     ,
+source venv/bin/activate   , # On Linux/Mac   ,
+venv\Scripts\activate     ,  # On Windows
 
-3. Install dependencies
+3. Install dependencies :
 pip install opencv-python opencv-contrib-python PyQt5 numpy
 
-📌 Project Structure
+📌 Project Structure:
+
 face_recognition_app/
-│── app.py              # Main GUI
-│── face_recognition_engine.py  # Handles training & recognition
-│── data/               # Stored face images
-│── trainer/            # Stored trained models
+│── app.py            ,  # Main GUI
+│── face_recognition_engine.py , # Handles training & recognition
+│── data/             ,  # Stored face images
+│── trainer/          ,  # Stored trained models
 
 Copy and Paste app.py & face_recognition_engine.py and in terminal run python app.py the rest of the files be created automatically.
